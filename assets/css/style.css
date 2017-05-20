@@ -1,0 +1,99 @@
+body {
+    background-image: url("assets/image/small_steps.png");
+}
+
+.text1{
+    color:#ccc;
+    padding-top:10px;
+       margin-left:40%;
+    margin-right:40%;
+    padding-bottom:10px;
+    background-color: #275c8d;
+    text-align: center;
+}
+
+.box1{
+    margin-left:30%;
+    margin-right:30%;
+}
+
+.back-color{
+        background-color:#ccc;
+}
+
+.par{
+    margin-top:10px;
+    margin-bottom:10px;
+    text-align:center;
+
+}
+
+#start{
+    text-align:center;
+}
+
+.score-board{
+    margin-left:30%;
+    margin-right:30%;
+}
+
+.aa{
+    background-color:#ccc;
+    padding-top:40px;
+    padding-bottom:40px;
+
+}
+
+.bb{
+    background-color:#888;
+        padding-top:40px;
+    padding-bottom:40px;
+}
+
+.cc{
+    background-color:#eee;
+        padding-top:40px;
+    padding-bottom:40px;
+}
+
+.dd{
+    background-color:#aaa;
+        padding-top:40px;
+    padding-bottom:40px;
+}
+
+.box2{
+    margin-top:60px;
+    margin-left:20%;
+    margin-right:20%;
+}
+
+.pic1{
+    width:128px;
+    height:128px;
+}
+
+.pic2{
+    width:128px;
+    height:128px;
+}
+
+.pic3{
+    width:128px;
+    height:128px;
+}
+
+.pic4{
+    width:128px;
+    height:128px;
+}
+
+.pic5{
+    width:128px;
+    height:128px;
+}
+
+.pic6{
+    width:128px;
+    height:128px;
+}
