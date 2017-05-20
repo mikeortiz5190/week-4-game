@@ -39,6 +39,10 @@ $("#start").on("click", function randomnize() {
 
       pic4 = Math.floor((Math.random() * 10) + 1);
 
+      pic5 = Math.floor((Math.random() * 10) + 1);
+
+      pic6 = Math.floor((Math.random() * 10) + 1);
+
       console.log(ranNum);
 
       console.log(pic1);
@@ -48,6 +52,10 @@ $("#start").on("click", function randomnize() {
       console.log(pic3);
 
       console.log(pic4);
+
+      console.log(pic5);
+
+      console.log(pic6);
 
       $(".total").html($("<p>").html(0));
 
@@ -90,14 +98,14 @@ $(".pic4").on("click", function() {
 });
 
 $(".pic5").on("click", function() {
-      newVal = newVal + pic3;
+      newVal = newVal + pic5;
       $(".total").html($("<p>").html(newVal));
       console.log(newVal);
       checkWinner()
 });
 
 $(".pic6").on("click", function() {
-      newVal = newVal + pic4;
+      newVal = newVal + pic6;
       $(".total").html($("<p>").html(newVal));
       console.log(newVal);
       checkWinner()
