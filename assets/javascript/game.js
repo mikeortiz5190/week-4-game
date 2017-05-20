@@ -117,7 +117,7 @@ if (newVal === ranNum){
 }
 
 else if (newVal > ranNum){
-      alert("YOU GOT SUCK!!!");
+      alert("YOU SUCK!!!");
       loses++
       $(".looseScore").html($("<p>").html(loses));
       $(".total").html($("<p>").html(0));
